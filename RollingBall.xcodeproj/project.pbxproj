@@ -12,6 +12,7 @@
 		E2E40D301E23357B00DCE74C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E2E40D2E1E23357B00DCE74C /* Main.storyboard */; };
 		E2E40D321E23357B00DCE74C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E2E40D311E23357B00DCE74C /* Assets.xcassets */; };
 		E2E40D351E23357B00DCE74C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E2E40D331E23357B00DCE74C /* LaunchScreen.storyboard */; };
+		E2E40D3E1E23359000DCE74C /* ball.png in Resources */ = {isa = PBXBuildFile; fileRef = E2E40D3D1E23359000DCE74C /* ball.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		E2E40D311E23357B00DCE74C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E2E40D341E23357B00DCE74C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E2E40D361E23357B00DCE74C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E2E40D3D1E23359000DCE74C /* ball.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ball.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,8 +62,17 @@
 				E2E40D311E23357B00DCE74C /* Assets.xcassets */,
 				E2E40D331E23357B00DCE74C /* LaunchScreen.storyboard */,
 				E2E40D361E23357B00DCE74C /* Info.plist */,
+				E2E40D3C1E23358500DCE74C /* Resouce */,
 			);
 			path = RollingBall;
+			sourceTree = "<group>";
+		};
+		E2E40D3C1E23358500DCE74C /* Resouce */ = {
+			isa = PBXGroup;
+			children = (
+				E2E40D3D1E23359000DCE74C /* ball.png */,
+			);
+			name = Resouce;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,6 +136,7 @@
 			files = (
 				E2E40D351E23357B00DCE74C /* LaunchScreen.storyboard in Resources */,
 				E2E40D321E23357B00DCE74C /* Assets.xcassets in Resources */,
+				E2E40D3E1E23359000DCE74C /* ball.png in Resources */,
 				E2E40D301E23357B00DCE74C /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
